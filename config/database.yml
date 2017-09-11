@@ -16,7 +16,7 @@ default: &default
   username: root
   password: <%= ENV['RAILS_DB_PASSWORD'] %>
   host: localhost
-  socket: <%= ENV['RAILS_SOCKET'] %>
+  socket: <%= ENV['RAILS_DB_SOCKET'] %>
 
 development:
   <<: *default

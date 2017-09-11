@@ -1,24 +1,15 @@
-# README
+# Rails-Blog-App
+A Blog-App created with Rails!!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Usage
+1. Create a MySQL DB [eq. `Rails-Blog-App`].
+2. Create the following environment variables:
+```javascript
+RAILS_DB="Rails-Blog-App"
+RAILS_DB_PASSWORD="DB PASSWORD"
+RAILS_DB_SOCKET="MySQL SOCKET"
+```
+3. Start the server
+```javascript
+rails s
+```
