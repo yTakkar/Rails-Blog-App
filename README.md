@@ -13,3 +13,11 @@ RAILS_DB_SOCKET="MySQL SOCKET"
 ```javascript
 rails s
 ```
+
+# Options
+```javascript
+rails s/server [Start the application]
+rails c/console [Open rails console]
+erb config/database.yml [Check if app is connected to db. Not connected if default fileds are empty!!]
+rake routes [Get all the possible routes present in the app]
+```
