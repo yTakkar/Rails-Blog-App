@@ -1,6 +1,8 @@
 # Rails-Blog-App
 A Blog-App created with Rails!!
 
+Click [here](https://github.com/yTakkar/Rails-Post-App) for updated version of it!!
+
 # Usage
 1. Create a MySQL DB [eq. `rails-blog-app`].
 2. Create the following environment variable:
