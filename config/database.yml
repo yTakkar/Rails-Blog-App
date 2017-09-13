@@ -16,11 +16,11 @@ default: &default
   username: root
   password: <%= ENV['RAILS_DB_PASSWORD'] %>
   host: localhost
-  socket: <%= ENV['RAILS_DB_SOCKET'] %>
+  socket: C:\xampp\mysql\mysql.sock     # Change this, if yours is different
 
 development:
   <<: *default
-  database: <%= ENV['RAILS_DB'] %>
+  database: rails-blog-app
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
